@@ -1,8 +1,8 @@
-### Visit this project here: [http://to-do-challenge.herokuapp.com](https://to-do-challenge.herokuapp.com)
-
 #### \*Local storage does not work in private browsing.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Apologies for weird formatting indents from my text editor. Git moved indents around in transit.
 
 ## Available Scripts
 
