@@ -1,0 +1,56 @@
+.day-city {
+	font-size: 48px;
+	float: left;
+}
+
+.day-date {
+	margin-top: 55px;
+}
+
+.day-temperature {
+	font-size: 38px;
+}
+
+.left-align {
+	float: left;
+}
+
+.font-grey {
+	color: #7d7c7b;
+}
+
+.today-grid-container {
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+	grid-template-rows: 100%;
+}
+
+.grid-1-image {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+.grid-2-temp {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+.grid-4-details {
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+.today-image {
+	max-width: 140px;
+	
+}
+
+.week-image {
+	max-width: 80px;
+}

@@ -1,0 +1,31 @@
+.title {
+	margin-top: 1rem;
+	text-align: center;
+}
+
+.card {
+	margin-left: 15%;
+	margin-top: 5%;
+	margin-right: 15%;
+	height: 90%;
+	padding: .5rem;
+	border: 2px solid #ddd;
+	box-shadow: 3px 5px 8px 0px;
+}
+
+.week-row {
+	display: inline-block;
+	margin-left: 3rem;
+}
+
+.form-group-search {
+	margin-top: 1rem;
+	text-align: center;
+}
+
+.buttons {
+	width: 20%;
+	border: 3px solid black;
+	border-radius: 5px;
+	background-color: yellow;
+}
