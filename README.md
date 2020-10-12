@@ -1,4 +1,4 @@
-##This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Apologies for weird formatting indents from my text editor. Git moved indents around in transit.
 
