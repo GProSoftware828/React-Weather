@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 //import UniqueId from 'react-html-id'; this will randomly stop working- others are better
 import {Today} from './Components/Today';
 import {WeekDays} from './Components/WeekDays';
+import {Week} from './Components/Week';
 import './App.css';
 import {
   getWeather,
@@ -136,7 +137,12 @@ export class App extends React.Component {
 								windDirection={day.windDirection}
 								monthNow={day.monthNow}
 								dayOfWeek={day.dayOfWeek}
-              	/>
+              	>
+		    				<Week
+									monthNow={day.monthNow}
+									dayOfWeek={day.dayOfWeek}
+		    					/>
+							</WeekDays>
 						</div>
           ))}
       	</div>

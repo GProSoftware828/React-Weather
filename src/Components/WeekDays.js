@@ -16,10 +16,7 @@ export class WeekDays extends Component {
       <div
         data-test="weekday"
       >
-    		<Week
-					monthNow={monthNow}
-					dayOfWeek={dayOfWeek}
-    			/>
+				{this.props.children}
 				<div data-test="titles">
 					{precipitation < .110000 ? (
         		<img

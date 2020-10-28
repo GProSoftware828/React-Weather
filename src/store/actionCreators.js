@@ -6,7 +6,7 @@ export const getWeather = (lat, lng) => async dispatch => {
 		headers: {
 			//please swap this out for your own API- as soon as you confirm your email for a free account they show you it
 			//only 50 requests per day, add more and switch them out:
-			"Authorization": "<stormglass.io API key>"
+			"Authorization": "<stormglass.io api key>"
 		}
 	});
 	//didn't want to make these global objects to make DRY, but open to further instructions:
@@ -86,7 +86,7 @@ export const getWeatherDefault = (lat, lng) => async dispatch => {
 		headers: {
 			//please swap this out for your own API- as soon as you confirm your email for a free account they show you it
 			//only 50 requests per day, add more and switch them out:
-			"Authorization": "<stormglass.io API key>"
+			"Authorization": "<stormglass.io api key>"
 		}
 	});
   const day1temp = response.data.hours[39].airTemperature[0].value;
@@ -165,7 +165,7 @@ export const getWeatherFahrenheit = (lat, lng) => async dispatch => {
 		headers: {
 			//please swap this out for your own API- as soon as you confirm your email for a free account they show you it
 			//only 50 requests per day, add more and switch them out:
-			"Authorization": "<stormglass.io API key>"
+			"Authorization": "<stormglass.io api key>"
 		}
 	});
 	const tempC = response.data.hours[15].airTemperature[0].value;
